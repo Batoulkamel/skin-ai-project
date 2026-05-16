@@ -1,0 +1,89 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.so
+*.dll
+*.dylib
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env/
+.env.*
+!.env.example
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+wheels/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# --- ML / data (keep repo small; use releases or external storage) ---
+*.keras
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.pb
+*.tflite
+*.safetensors
+*.ckpt
+*.weights
+data/
+datasets/
+logs/
+runs/
+wandb/
+mlruns/
+checkpoints/
+*.npz
+*.npy
+
+# --- Node (if you add tooling later) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- FastAPI / local ---
+*.log
+.cache/
+
+# --- ngrok ---
+ngrok.yml
